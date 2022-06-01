@@ -19,22 +19,22 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - id: Repo
+      - id: repo
         name: Repo
         uses: actions/checkout@v3
       
-      - id: Python
+      - id: python
         name: Setup
         uses: actions/setup-python@v3
         with:
           python-version: '3.9'
           cache: 'pip'
           
-      - id: Pip Install
+      - id: pip_Install
         name: Installing Packages
         run: pip install -r requirements.txt
       
-      - id: IPYNB
+      - id: ipynb
         name: Run Notebook
         run: jupyter execute Daily_updating_dataset.ipynb
         shell: bash
