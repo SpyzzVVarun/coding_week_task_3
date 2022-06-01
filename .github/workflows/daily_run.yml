@@ -47,7 +47,8 @@ jobs:
           git mv *.csv data &&
           git add * &&
           git commit -am "Data for $(date)" &&
-          git push origin main/data
+          git push origin main &&
+          git commit -m 'MOVEEEEEE'
           
         env:
           REPO_KEY: ${{secrets.GITHUB_TOKEN}}
