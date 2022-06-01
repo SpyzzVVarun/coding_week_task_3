@@ -49,8 +49,6 @@ jobs:
           git push origin main &&
           git mv *.csv data &&
           git commit -m 'MOVEEEEEE'
-          git rm *.csv &&
-          git commit -m 'MOVEEEEEE'
           
         env:
           REPO_KEY: ${{secrets.GITHUB_TOKEN}}
