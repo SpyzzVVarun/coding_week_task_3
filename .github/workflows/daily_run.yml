@@ -46,7 +46,7 @@ jobs:
           git config --global user.name actions-user &&
           git add * &&
           git commit -am "Data for $(date)" &&
-          git push origin main
+          git push origin main/data
           
         env:
           REPO_KEY: ${{secrets.GITHUB_TOKEN}}
