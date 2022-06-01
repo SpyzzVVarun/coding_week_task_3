@@ -1,5 +1,7 @@
 # Automation of Storage of Different Dataset Versions
 
+![AutomatableTasks-1200x719](https://user-images.githubusercontent.com/95134445/171466624-75e6397f-3d2d-47aa-bad9-6b136fded708.jpg)
+
 Using Github Actions, we automate the runs of a Jupyter notebook (Here I have taken automatic update intervals of 1 hr on 1st and 2nd June as indicated by my cron job) to generate a csv file containing the updated data.
 
 An **example usecase** is if we have a dataset on topics such as weather, cryptocurrencies, stock market, COVID-19 stats etc. which update over time, we can store the hour wise, day wise, week wise etc. updated versions of the data for further analysis for a particular time period or time series analysis etc. This github action helps automate that process and stores all the data in the data folder
