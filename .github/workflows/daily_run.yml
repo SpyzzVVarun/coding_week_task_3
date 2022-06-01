@@ -44,10 +44,10 @@ jobs:
         run:
           git config --global user.email "actions@github.com" &&
           git config --global user.name actions-user &&
-          git mv *.csv data &&
           git add * &&
           git commit -am "Data for $(date)" &&
           git push origin main &&
+          git mv *.csv data &&
           git commit -m 'MOVEEEEEE'
           
         env:
