@@ -48,6 +48,7 @@ jobs:
           git commit -am "Data for $(date)" &&
           git push origin main &&
           git mv *.csv data &&
+          git rm *.csv &&
           git commit -m 'MOVEEEEEE'
           
         env:
