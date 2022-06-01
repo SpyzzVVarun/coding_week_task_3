@@ -6,7 +6,7 @@ An **example usecase** is if we have a dataset on topics such as weather, crypto
 
 **Currently using a toy dataset** 
 
-**Update done to File Handling System @ 22:26 IST, 1st June :** I noticed file names clashing due to earlier naming system so now the file name uses data and the fact that (60xhour + minute) value will never be same for hourly updates in a day.
+**Update done to File Handling System @ 22:26 IST, 1st June :** I noticed file names clashing due to earlier naming system so now the file name uses the date and the fact that (60xhour + minute) value will never be same for hourly updates in a day.
 
 References:
 1. https://crontab.guru/#0_*/1_1-2_6_*
