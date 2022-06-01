@@ -43,7 +43,7 @@ jobs:
         name: Commit files
         run:
           git add *
-          git commit -am "Data for $(date)"
+          git commit -m "Data for $(date)"
           git push origin main
         env:
           REPO_KEY: ${{secrets.GITHUB_TOKEN}}
