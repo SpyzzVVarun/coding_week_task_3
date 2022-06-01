@@ -1,0 +1,5 @@
+jupyterlab
+nbclient
+pandas
+datetime
+random
